@@ -1,10 +1,10 @@
 function StoryPage(){
     return (
-        <div className="w-full bg-[#242424] bg-[url('start.webp')] h-[97rem]"> 
-        <section className="w-[40rem] flex flex-col  ml-[1rem] max-large:w-[95%]">
-            <div className="text-white text-[80px] max-large:text-[70px] flex font-own leading-[6rem] mt-[7rem] mb-[4rem]">Everyone has a story to tell.</div>
+        <div className="w-full bg-[#242424] bg-[url('start.webp')] h-[97rem] max-ultra-small:h-[75rem]"> 
+        <section className="w-[40rem] flex flex-col  max-large:w-[92%] ml-[2.4rem] max-large:ml-[1rem]">
+            <div className="text-white text-[80px] max-large:text-[70px] flex font-own leading-[6rem] mt-[7rem] mb-[4rem] max-ultra-small:mb-[2rem] max-ultra-small:text-[40px] max-ultra-small:leading-[3rem] ">Everyone has a story to tell.</div>
 
-            <div className="flex flex-col font-thin font-own text-[21px] text-white opacity-80 max-large:w-[100%]">
+            <div className="flex flex-col font-thin font-own text-[21px] text-white opacity-80 max-large:w-[100%] max-ultra-small:text-[15px]">
                 <p className="mb-[1rem]">
                 Medium is a home for human stories and ideas. Here, anyone can share insightful perspectives, useful knowledge, and life wisdom with the world—without building a mailing list or a following first. The internet is noisy and chaotic; Medium is quiet yet full of insight. It’s simple, beautiful, collaborative, and helps you find the right audience for whatever you have to say.
                 </p>
@@ -13,13 +13,13 @@ function StoryPage(){
                 </p>
 
                 <div className="flex flex-col  gap-[0.5rem] font-serif text-[28px] font-light mb-[2rem]">
-                <p className="bg-[#fff] bg-opacity-30 w-[34rem] text-white opacity-100 line-clamp-6">
+                <p className="bg-[#fff] bg-opacity-30 w-[34rem] text-white opacity-100 line-clamp-6 max-ultra-small:text-[20px] max-ultra-small:w-[20rem]">
                 Ultimately, our goal is to deepen our collective
                 understanding of the world through the power of
                 writing.</p>
                 </div>
 
-                <p className="mb-[2rem]">
+                <p className="mb-[2rem] max-ultra-small:mb-[0rem]">
                 Over 100 million people connect and share their wisdom on Medium every month. Many are professional writers, but just as many aren’t — they’re CEOs, computer scientists, U.S. presidents, amateur novelists, and anyone burning with a story they need to get out into the world. They write about what they’re working on, what’s keeping them up at night, what they’ve lived through, and what they’ve learned that the rest of us might want to know too.
                 </p>
 
