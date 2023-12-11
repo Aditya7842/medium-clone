@@ -1,0 +1,65 @@
+{"data" : [
+  {
+    "name": "Aditya Chaudhary",
+    "profile": "https://randomuser.me/api/portraits/men/1.jpg",
+    "title": "What I'm reading on the Rise of Artificial Intelligence",
+    "story": "Earlier this week, President Biden issued an executive order on artificial intelligence -- a breakthrough technology that has...",
+    "date": "Nov 3",
+    "read": "5 min read",
+    "picture": "https://picsum.photos/200/300"
+  },
+  {
+    "name": "John Doe",
+    "profile": "https://randomuser.me/api/portraits/men/2.jpg",
+    "title": "Exploring the Future of Technology",
+    "story": "In a world dominated by technology, we take a closer look at the future and its impact on our lives...",
+    "date": "Dec 12",
+    "read": "7 min read",
+    "picture": "https://picsum.photos/201/300"
+  },
+  {
+    "name": "Jane Smith",
+    "profile": "https://randomuser.me/api/portraits/women/3.jpg",
+    "title": "The Evolution of Machine Learning",
+    "story": "As machine learning continues to evolve, we delve into its history and the exciting possibilities it holds for the future...",
+    "date": "Jan 20",
+    "read": "6 min read",
+    "picture": "https://picsum.photos/202/300"
+  },
+  {
+    "name": "Alice Johnson",
+    "profile": "https://randomuser.me/api/portraits/women/4.jpg",
+    "title": "The Impact of Quantum Computing",
+    "story": "Quantum computing is poised to revolutionize the computing landscape. Let's explore its potential and challenges...",
+    "date": "Feb 8",
+    "read": "8 min read",
+    "picture": "https://picsum.photos/203/300"
+  },
+  {
+    "name": "Bob Williams",
+    "profile": "https://randomuser.me/api/portraits/men/5.jpg",
+    "title": "The Future of Augmented Reality",
+    "story": "Augmented reality is changing the way we interact with the world. Discover the latest trends and innovations in AR technology...",
+    "date": "Mar 15",
+    "read": "6 min read",
+    "picture": "https://picsum.photos/204/300"
+  },
+  {
+    "name": "Eva Anderson",
+    "profile": "https://randomuser.me/api/portraits/women/6.jpg",
+    "title": "The Future of Space Exploration",
+    "story": "Space agencies worldwide are gearing up for a new era of space exploration. Join us on a journey to the stars...",
+    "date": "Apr 5",
+    "read": "8 min read",
+    "picture": "https://picsum.photos/205/300"
+  },
+  {
+    "name": "Max Johnson",
+    "profile": "https://randomuser.me/api/portraits/men/7.jpg",
+    "title": "Digital Art: Blurring the Lines Between Reality and Imagination",
+    "story": "Digital artists are pushing boundaries, creating immersive experiences that challenge our perception of reality...",
+    "date": "May 12",
+    "read": "7 min read",
+    "picture": "https://picsum.photos/206/300"
+  }
+]}
