@@ -2,7 +2,7 @@ function StoryAction(){
     return(
         <div>
             <div className="border border-x-0 border-y-white flex justify-center bg-[#242424] h-[10rem] flex items-center max-ultra-small:h-[7.5rem]">
-                <div className="flex justify-between  w-[95%] h-[100%] items-center font-own text-[70px] max-ultra-small:text-[30px] text-white h-[50%]">
+                <div className="flex justify-between  w-[95%] h-[100%] items-center font-own text-[70px] max-ultra-small:text-[30px] text-white h-[50%] max-small:">
                 <p>Start reading</p>
                 <p>→</p>
                 </div>

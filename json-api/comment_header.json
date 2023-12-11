@@ -1,0 +1,172 @@
+{"data" : [
+    {
+      "name": "Aditya Chaudhary",
+      "comment": "Is Rust worth it?",
+      "date": "30 Oct",
+      "read": "10 min read"
+    },
+    {
+      "name": "Jessica Johnson",
+      "comment": "Getting started with React",
+      "date": "12 Nov",
+      "read": "12 min read"
+    },
+    {
+      "name": "Michael Williams",
+      "comment": "iOS vs Android development",
+      "date": "5 Dec",
+      "read": "8 min read"
+    },
+    {
+      "name": "Sophia Lee",
+      "comment": "Tips for efficient coding",
+      "date": "22 Nov",
+      "read": "15 min read"
+    },
+    {
+      "name": "Matthew Taylor",
+      "comment": "The future of web development",
+      "date": "18 Oct",
+      "read": "20 min read"
+    },
+    {
+      "name": "Olivia Brown",
+      "comment": "Building scalable applications",
+      "date": "8 Nov",
+      "read": "18 min read"
+    },
+    {
+      "name": "Daniel Miller",
+      "comment": "Choosing the right programming language",
+      "date": "2 Dec",
+      "read": "14 min read"
+    },
+    {
+      "name": "Isabella Davis",
+      "comment": "Introduction to data science",
+      "date": "14 Oct",
+      "read": "16 min read"
+    },
+    {
+      "name": "Aiden Smith",
+      "comment": "Creating a responsive design",
+      "date": "10 Nov",
+      "read": "12 min read"
+    },
+    {
+      "name": "Emma Wilson",
+      "comment": "Machine learning for beginners",
+      "date": "7 Dec",
+      "read": "22 min read"
+    },
+    {
+      "name": "William Clark",
+      "comment": "Best practices in software testing",
+      "date": "25 Oct",
+      "read": "15 min read"
+    },
+    {
+      "name": "Mia Thomas",
+      "comment": "Exploring cloud computing",
+      "date": "19 Nov",
+      "read": "14 min read"
+    },
+    {
+      "name": "Liam Martinez",
+      "comment": "The impact of AI on society",
+      "date": "13 Dec",
+      "read": "18 min read"
+    },
+    {
+      "name": "Ava White",
+      "comment": "Web security essentials",
+      "date": "9 Oct",
+      "read": "10 min read"
+    },
+    {
+      "name": "Noah Anderson",
+      "comment": "Building a career in IT",
+      "date": "4 Nov",
+      "read": "16 min read"
+    },
+    {
+      "name": "Olivia Harris",
+      "comment": "Introduction to blockchain technology",
+      "date": "28 Dec",
+      "read": "20 min read"
+    },
+    {
+      "name": "Ethan King",
+      "comment": "Python vs Java: A comparison",
+      "date": "11 Oct",
+      "read": "12 min read"
+    },
+    {
+      "name": "Madison Turner",
+      "comment": "Frontend frameworks overview",
+      "date": "16 Nov",
+      "read": "14 min read"
+    },
+    {
+      "name": "James Carter",
+      "comment": "Getting started with Docker",
+      "date": "3 Dec",
+      "read": "15 min read"
+    },
+    {
+      "name": "Lily Brown",
+      "comment": "Cybersecurity for beginners",
+      "date": "17 Oct",
+      "read": "18 min read"
+    },
+    {
+      "name": "Benjamin Hill",
+      "comment": "The evolution of programming languages",
+      "date": "6 Nov",
+      "read": "22 min read"
+    },
+    {
+      "name": "Zoe Walker",
+      "comment": "Best practices in UX design",
+      "date": "21 Dec",
+      "read": "12 min read"
+    },
+    {
+      "name": "Christopher Allen",
+      "comment": "JavaScript frameworks comparison",
+      "date": "15 Oct",
+      "read": "16 min read"
+    },
+    {
+      "name": "Victoria Scott",
+      "comment": "Big data analytics trends",
+      "date": "8 Nov",
+      "read": "20 min read"
+    },
+    {
+      "name": "Nathan Garcia",
+      "comment": "Tips for remote work productivity",
+      "date": "2 Dec",
+      "read": "14 min read"
+    },
+    {
+      "name": "Ella Nelson",
+      "comment": "Understanding artificial intelligence",
+      "date": "12 Oct",
+      "read": "18 min read"
+    },
+    {
+      "name": "Christian Evans",
+      "comment": "The importance of version control",
+      "date": "5 Nov",
+      "read": "15 min read"
+    },
+    {
+      "name": "Grace Phillips",
+      "comment": "Web development trends for 2023",
+      "date": "19 Dec",
+      "read": "22 min read"
+    }
+  ]
+}
+  

@@ -1,4 +1,19 @@
-export default function Blog({data}){
+import { useEffect } from "react";
+import { useState } from "react";
+import axios from 'axios';
+
+
+export default function Blog(){
+
+    const [value, setValue] = useState([]);
+
+    useEffect(() => {
+        axios.get('http://localhost:3001/data')
+        .then((res) => setValue(res.data));
+    }, []);
+
+    const data = value.slice(0, 6);
+
 
     return(
 
@@ -11,16 +26,23 @@ export default function Blog({data}){
 
                      <div className='grid grid-cols-12 mt-[1rem]'>
                         {data.map((content, index) => {
-                            return(
+                           
+                         
+
+                           return (
+                      
+                                
+                                
                                 <div className='col-span-4 flex gap-x-4 h-[7rem] mb-[2rem] max-big:col-span-6
                                 max-small:col-span-12 '> 
                                     <div className='text-[1.9rem] text-zinc-400 text-opacity-25 relative mr-[2rem]'>
-                                        <p className='absolute top-[-1rem]'>{content.number}</p>
+                                        
+                                        <p className='absolute top-[-1rem]'>{`0` + (index + 1)}</p>
                                     </div>
                                     <div className='flex flex-col'>
                                         <div className='flex gap-x-2 mb-2'>
                                             <img src={`person_${index + 1}.png`} alt="" className='h-[1.5rem] rounded-full'/>
-                                            <p className='font-serif text-[14px]'>{content.person}</p>
+                                            <p className='font-serif text-[14px]'>{content.name}</p>
                                         </div>
                                         <div className='mb-[1rem]'><p className='font-serif font-bold'>{content.comment}</p></div>
                                         <div className='flex gap-x-2 font-serif text-stone-400'>
@@ -33,13 +55,16 @@ export default function Blog({data}){
                                         </div>
                                     </div>
                                 </div>
-                            )
-                        })}
+                                );
+                        })
+                        
+                    }
                      </div>
                 </div>
         </section>
        
-   
+                
     );
 }
+
 
