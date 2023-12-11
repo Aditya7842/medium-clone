@@ -41,7 +41,7 @@ export default function Blog(){
                                     </div>
                                     <div className='flex flex-col'>
                                         <div className='flex gap-x-2 mb-2'>
-                                            <img src={`person_${index + 1}.png`} alt="" className='h-[1.5rem] rounded-full'/>
+                                            <img src={content.profile} alt="" className='h-[1.5rem] rounded-full'/>
                                             <p className='font-serif text-[14px]'>{content.name}</p>
                                         </div>
                                         <div className='mb-[1rem]'><p className='font-serif font-bold'>{content.comment}</p></div>

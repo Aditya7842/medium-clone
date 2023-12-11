@@ -1,31 +1,45 @@
+import { useEffect, useState } from "react";
+import axios from "axios";
+
+
 export default function Footer({blogData, buttons, contract}){
+
+    const[value, setValue] = useState([]);
+
+    useEffect(() => {
+        axios.get('http://localhost:3002/data')
+        .then((res) => setValue(res.data));
+    }, []);
+
+   
+
     return(
     <div className="end-section w-[100%]">
         <div className='w-[82.8%] ml-[7.2rem] max-large:ml-[5rem] max-small:ml-[1.5rem] mt-[2rem] grid grid-cols-12 max-large:grid-cols-1 max-big:ml-[6rem] max-small:w-[95%] max-ultra-small:w-[90%]'>
             <div className='col-span-7 max-large:col-span-1 max-large:py-[2rem] max-large:order-2'>
-                {blogData.map((content, index) => {
+                {value.map((content, index) => {
                     return(
                         <div className='flex mb-[5rem] items-center min-h-[10rem] max-h-[12rem] max-small:space-x-[35%] max-ultra-small:space-x-[20%]'>
                             <div className='flex flex-col mr-[1rem] '>
                                 <div className='flex items-center gap-x-2 font-serif mb-2'>
-                                    <img src={`blogger_${index + 1}.png`} alt="" className='rounded-full h-[2rem]'/>
-                                    <p className='font-normal flex'>{content.person}</p>
+                                    <img src={content.profile} alt="" className='rounded-full h-[2rem]'/>
+                                    <p className='font-normal flex'>{content.name}</p>
                                 </div>
                                 <div className='mb-2'>
                                     <p className='font-serif font-bold'>{content.title}</p>
                                 </div>
                                 <div className='text-stone-500 font-serif mb-2 text-ellipsis'>
                                     <p className='overflow-hidden overflow-ellipsis
-                                     h-[3rem] max-small:hidden'>{content.blog}</p>
+                                     h-[3rem] max-small:hidden'>{content.story}</p>
                                 </div>
                                 <div className='flex gap-x-2 text-stone-500 font-serif'>
-                                    <p>{content.time}</p>
+                                    <p>{content.date}</p>
                                     <p>.</p>
-                                    <p>{content.minute} min read</p>
+                                    <p>{content.read}</p>
                                 </div>
                             </div>
                          
-                            <img src={`picture_${index + 1}.jpg`} alt="" className='w-[15rem] max-small:w-[12rem] max-ultra-small:aspect-[0.2] max-ultra-small:h-[5rem]'/>
+                            <img src={content.picture} alt="" className='h-[10rem] w-[15rem] max-small:w-[12rem] max-ultra-small:aspect-[0.2] max-ultra-small:h-[5rem]'/>
                       
                         </div>
                     );

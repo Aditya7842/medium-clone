@@ -3,67 +3,78 @@
       "name": "Aditya Chaudhary",
       "comment": "Is Rust worth it?",
       "date": "30 Oct",
-      "read": "10 min read"
+      "read": "10 min read",
+      "profile": "https://randomuser.me/api/portraits/men/1.jpg"
     },
     {
       "name": "Jessica Johnson",
       "comment": "Getting started with React",
       "date": "12 Nov",
-      "read": "12 min read"
+      "read": "12 min read",
+      "profile": "https://randomuser.me/api/portraits/men/3.jpg"
     },
     {
       "name": "Michael Williams",
       "comment": "iOS vs Android development",
       "date": "5 Dec",
-      "read": "8 min read"
+      "read": "8 min read",
+      "profile": "https://randomuser.me/api/portraits/women/1.jpg"
     },
     {
       "name": "Sophia Lee",
       "comment": "Tips for efficient coding",
       "date": "22 Nov",
-      "read": "15 min read"
+      "read": "15 min read",
+      "profile": "https://randomuser.me/api/portraits/men/8.jpg"
     },
     {
       "name": "Matthew Taylor",
       "comment": "The future of web development",
       "date": "18 Oct",
-      "read": "20 min read"
+      "read": "20 min read",
+      "profile": "https://randomuser.me/api/portraits/women/10.jpg"
     },
     {
       "name": "Olivia Brown",
       "comment": "Building scalable applications",
       "date": "8 Nov",
-      "read": "18 min read"
+      "read": "18 min read",
+      "profile": "https://randomuser.me/api/portraits/men/9.jpg"
     },
     {
       "name": "Daniel Miller",
       "comment": "Choosing the right programming language",
       "date": "2 Dec",
-      "read": "14 min read"
+      "read": "14 min read",
+      "profile": "https://randomuser.me/api/portraits/women/5.jpg"
     },
     {
       "name": "Isabella Davis",
       "comment": "Introduction to data science",
       "date": "14 Oct",
-      "read": "16 min read"
+      "read": "16 min read",
+      "profile": "https://randomuser.me/api/portraits/men/19.jpg"
     },
     {
       "name": "Aiden Smith",
       "comment": "Creating a responsive design",
       "date": "10 Nov",
-      "read": "12 min read"
+      "read": "12 min read",
+      "profile": "https://randomuser.me/api/portraits/men/12s.jpg"
     },
     {
       "name": "Emma Wilson",
       "comment": "Machine learning for beginners",
       "date": "7 Dec",
-      "read": "22 min read"
+      "read": "22 min read",
+      "profile": "https://randomuser.me/api/portraits/women/3.jpg"
     },
     {
       "name": "William Clark",
       "comment": "Best practices in software testing",
       "date": "25 Oct",
-      "read": "15 min read"
+      "read": "15 min read",
+      "profile": "https://randomuser.me/api/portraits/women/4.jpg"
     },
     {
       "name": "Mia Thomas",
