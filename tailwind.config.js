@@ -19,8 +19,10 @@ export default {
         'ultra-small': '551px',
         'big': '1076px',
         'medium': '660px',
-      }
-
+      }, 
+      transitionDuration:{
+        '300': '300ms',
+      },
     },
   },
   plugins: [],
