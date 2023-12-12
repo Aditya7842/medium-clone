@@ -2,22 +2,53 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 
-export default function Footer({blogData, buttons, contract}){
 
-    const[value, setValue] = useState([]);
+export default function Footer({blogdata, buttons, contract}){
+
+    const[data, setData] = useState([]);
+    const[page, setPage] = useState(1);
 
     useEffect(() => {
-        axios.get('http://localhost:3002/data')
-        .then((res) => setValue(res.data));
+        const fetchData = async() => {
+            try{
+                const response = await axios.get('http://localhost:3002/data')
+                const newData = response.data;
+                setData(prevData => [...prevData, ...newData]);
+            }catch(err){
+                console.log(err);
+            }
+        }
+        fetchData();
+        
+    }, [page]);
+
+
+    const handleScroll = () => {
+        console.log(window.innerHeight);
+        console.log(document.documentElement.scrollTop);
+        console.log(document.documentElement.scrollHeight);
+        if(window.innerHeight + document.documentElement.scrollTop + 1 >= document.documentElement.scrollHeight){
+            setPage(prev => prev + 1);
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+
+        return() => window.removeEventListener('scroll', handleScroll);
     }, []);
 
    
 
+   
     return(
     <div className="end-section w-[100%]">
         <div className='w-[82.8%] ml-[7.2rem] max-large:ml-[5rem] max-small:ml-[1.5rem] mt-[2rem] grid grid-cols-12 max-large:grid-cols-1 max-big:ml-[6rem] max-small:w-[95%] max-ultra-small:w-[90%]'>
             <div className='col-span-7 max-large:col-span-1 max-large:py-[2rem] max-large:order-2'>
-                {value.map((content, index) => {
+
+             
+
+                {data.map((content, index) => {
                     return(
                         <div className='flex mb-[5rem] items-center min-h-[10rem] max-h-[12rem] max-small:space-x-[35%] max-ultra-small:space-x-[20%]'>
                             <div className='flex flex-col mr-[1rem] '>
@@ -43,7 +74,9 @@ export default function Footer({blogData, buttons, contract}){
                       
                         </div>
                     );
+                    
                 })}
+              
             </div>
             <div className='col-span-4 col-start-9 flex flex-col max-large:h-[15%] max-large:col-span-1 max-large:order-1'>
                 <div className='flex mb-4'>
