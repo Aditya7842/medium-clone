@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { set } from "mongoose";
 
 
 
@@ -7,6 +8,22 @@ export default function Footer({blogdata, buttons, contract}){
 
     const[data, setData] = useState([]);
     const[page, setPage] = useState(1);
+
+    const[scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrolled(scrollY > 840);
+        }
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        }
+
+        
+    })
 
     useEffect(() => {
         const fetchData = async() => {
@@ -78,7 +95,7 @@ export default function Footer({blogdata, buttons, contract}){
                 })}
               
             </div>
-            <div className='col-span-4 col-start-9 flex flex-col max-large:h-[15%] max-large:col-span-1 max-large:order-1'>
+            <div className={`col-span-4 col-start-9 flex flex-col max-large:h-[15%] max-large:col-span-1 max-large:order-1 ${scrolled && 'large:fixed'} top-[14%] max-big:top-[10%] left-[63%] right-[8%] `}>
                 <div className='flex mb-4'>
                     <p className='font-serif font-medium'>Discover more of what matters to you</p>
                 </div>
